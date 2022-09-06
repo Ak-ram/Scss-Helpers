@@ -72,5 +72,23 @@
         "right: 0;"
       ],
       "description": "position absolute fill it's parent"
+    },
+    "background image cover": {
+      "prefix": "_bgco",
+      "body": [
+        "background-image: url($1);",
+        "background-size: cover;",
+        "background-repeat: no-repeat;"
+      ],
+      "description": "background image size cover"
+    },
+    "background image contain": {
+      "prefix": "_bgcn",
+      "body": [
+        "background-image: url($1);",
+        "background-size: contain;",
+        "background-repeat: no-repeat;"
+      ],
+      "description": "background image size contain"
     }
 }
