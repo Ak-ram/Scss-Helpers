@@ -1,6 +1,6 @@
 {
-  "name": "vsc-sass-snippet",
-  "displayName": "vsc-sass-snippet",
+  "name": "vsc-scss-snippet",
+  "displayName": "vsc-scss-snippet",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -17,8 +17,8 @@
   "contributes": {
     "snippets": [
       {
-        "language": "sass",
-        "path": "./snippets/sass_snippets.json"
+        "language": "scss",
+        "path": "./snippets/scss_snippets.json"
       }
     ]
   }
