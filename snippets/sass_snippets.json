@@ -56,5 +56,10 @@
         ");"
       ],
       "description": "creates default breakpoint map"
-    },
+    }, 
+    "@use": {
+      "prefix": "_use",
+      "body": "@use ${1:filePath} as *;",
+      "description": "@use 'file' as *"
+    }
 }
