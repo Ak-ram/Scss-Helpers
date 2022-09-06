@@ -61,5 +61,16 @@
       "prefix": "_use",
       "body": "@use ${1:filePath} as *;",
       "description": "@use 'file' as *"
+    },
+    "absolute banner": {
+      "prefix": "_abb",
+      "body": [
+        "position: absolute;",
+        "top: 0;",
+        "bottom: 0;",
+        "left: 0;",
+        "right: 0;"
+      ],
+      "description": "position absolute fill it's parent"
     }
 }
