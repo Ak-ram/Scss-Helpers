@@ -8,5 +8,20 @@
     "prefix": "_clc",
     "body": "calc($1);",
     "description": "calc()"
-  }
+  },
+    "function px to em": {
+      "prefix": "_funcem",
+      "body": [
+        "@function rem($pixels, $context: ${1:16}){",
+        "@return ($pixels/$context)em;",
+        "}"
+      ],
+      "description": "function to convert px to em"
+    },
+    "px to em": {
+      "prefix": "_em",
+      "body": "em($1)",
+      "description": "use the em function"
+    }
+  
 }
