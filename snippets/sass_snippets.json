@@ -90,5 +90,79 @@
         "background-repeat: no-repeat;"
       ],
       "description": "background image size contain"
+    },
+        
+    "mediaquery mixins": {
+      "prefix": "_mqm",
+      "body": [
+        "@mixin responsiveMax(${1:size}) {",
+        "  @media only screen and (max-width: ${1:size}) {",
+        "    @content;",
+        "  }",
+        "}",
+        "",
+        "@mixin responsiveMin(${2:size}) {",
+        "  @media only screen and (min-width: ${2:size}) {",
+        "    @content;",
+        "  }",
+        "}",
+        "",
+        "@mixin responsiveMinMax(${3:sizeMin}, ${4:sizeMax}) {",
+        "  @media only screen and (min-width: ${3:sizeMin}) and (max-width: ${4:sizeMax}) {",
+        "    @content;",
+        "  }",
+        "}"
+      ],
+      "description": "Inserts default media queries for breakpoints map"
+    },
+    "responsiveMax mini": {
+      "prefix": "_rmxs",
+      "body": ["@include responsiveMax(mini){", "$1", "}"],
+      "description": "responsiveMax mixin for mobile"
+    },
+    "responsiveMax small": {
+      "prefix": "_rms",
+      "body": ["@include responsiveMax(small){", "$1", "}"],
+      "description": "responsiveMax mixin for tablet Portret"
+    },
+    "responsiveMax medium": {
+      "prefix": "_rmm",
+      "body": ["@include responsiveMax(medium){", "$1", "}"],
+      "description": "responsiveMax mixin for tablet Landscape"
+    },
+    "responsiveMax big": {
+      "prefix": "_rmb",
+      "body": ["@include responsiveMax(big){", "$1", "}"],
+      "description": "responsiveMax mixin for laptop"
+    },
+    "responsiveMax huge": {
+      "prefix": "_rmh",
+      "body": ["@include responsiveMax(huge){", "$1", "}"],
+      "description": "responsiveMax mixin for desktop"
+    },
+    "responsiveMin mini": {
+      "prefix": "_rmixs",
+      "body": ["@include responsiveMin(mini){", "$1", "}"],
+      "description": "responsiveMin mixin for mobile"
+    },
+    "responsiveMin small": {
+      "prefix": "_rmis",
+      "body": ["@include responsiveMin(small){", "$1", "}"],
+      "description": "responsiveMin mixin for tablet Landscape"
+    },
+    "responsiveMin medium": {
+      "prefix": "_rmim",
+      "body": ["@include responsiveMin(medium){", "$1", "}"],
+      "description": "responsiveMin mixin for tablet Portret"
+    },
+    "responsiveMin big": {
+      "prefix": "_rmib",
+      "body": ["@include responsiveMin(big){", "$1", "}"],
+      "description": "responsiveMin mixin for laptop"
+    },
+    "responsiveMin huge": {
+      "prefix": "_rmih",
+      "body": ["@include responsiveMin(huge){", "$1", "}"],
+      "description": "responsiveMin mixin for desktop"
     }
 }
