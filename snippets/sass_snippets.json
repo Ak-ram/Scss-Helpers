@@ -41,5 +41,20 @@
       "prefix": "_imp",
       "body": "@import ${1:filePath};",
       "description": "import a file"
-    }
+    },
+    
+    "breakpoints": {
+      "prefix": "_brpt",
+      "body": [
+        "$$breakpoints: (",
+        "  \"mini\": \"480px\",",
+        "  \"small\": \"700px\",",
+        "  \"menu\": \"1000\",",
+        "  \"big\": \"1 240px\",",
+        "  \"bigger\": \"1366px\",",
+        "  \"huge\": \"1440px\",",
+        ");"
+      ],
+      "description": "creates default breakpoint map"
+    },
 }
