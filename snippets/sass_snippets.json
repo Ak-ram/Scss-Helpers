@@ -36,6 +36,10 @@
       "prefix": "_rem",
       "body": "rem($1);",
       "description": "use the rem function"
+    },
+    "@import": {
+      "prefix": "_imp",
+      "body": "@import ${1:filePath};",
+      "description": "import a file"
     }
-  
 }
