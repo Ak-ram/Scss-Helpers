@@ -3,5 +3,10 @@
     "prefix": "_fw",
     "body": "@forward ${1:filePath};",
     "description": "@forward 'file'"
+  },
+  "calc": {
+    "prefix": "_clc",
+    "body": "calc($1);",
+    "description": "calc()"
   }
 }
