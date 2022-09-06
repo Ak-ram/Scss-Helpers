@@ -22,6 +22,20 @@
       "prefix": "_em",
       "body": "em($1)",
       "description": "use the em function"
+    },
+    "function px to rem": {
+      "prefix": "_funcrem",
+      "body": [
+        "@function rem($pixels, $context: 16){",
+        "@return ($pixels/$context) * 1rem;",
+        "}"
+      ],
+      "description": "function to convert px to rem"
+    },
+    "px to rem": {
+      "prefix": "_rem",
+      "body": "rem($1);",
+      "description": "use the rem function"
     }
   
 }
