@@ -1,0 +1,7 @@
+{
+  "@forward": {
+    "prefix": "_fw",
+    "body": "@forward ${1:filePath};",
+    "description": "@forward 'file'"
+  }
+}
