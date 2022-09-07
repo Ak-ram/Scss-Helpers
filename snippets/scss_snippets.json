@@ -179,7 +179,7 @@
     },
     "auto-prefix": {
       "prefix": "_ap",
-      "body": ["@include prefix(transform,rotate(15deg),webkit ms o moz){", "$1", "}"],
+      "body": ["@include prefix(transform,rotate(15deg),webkit ms o moz)"],
       "description": "auto prefixer"
     }
 }
