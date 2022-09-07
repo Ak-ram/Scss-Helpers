@@ -1,7 +1,7 @@
 {
-  "name": "vsc-scss-snippet",
-  "displayName": "vsc-scss-snippet",
-  "description": "",
+  "name": "scss-helpers",
+  "displayName": "scss - bunch of useful mixins and functions",
+  "description": "Utilize SSCS functions and mixins that have already been precoded to cut down on development time.",
   "version": "0.0.1",
   "publisher": "AkramAshraf",
   "engines": {
