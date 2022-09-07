@@ -1,7 +1,7 @@
 # SCSS - bunch of useful mixins and functions
 
 ## __Installation__
-![scss-helpers-preview](https://s5.gifyu.com/images/scss-helpers-preview.gif)
+![scss-helpers-preview](https://user-images.githubusercontent.com/69124951/188807459-6a827359-9c57-45ad-a93b-27c80a29cc9f.gif)
 
 It's a [VS Code](https://code.visualstudio.com/) snippets that allow you to utilize SSCS functions and mixins that have already been precoded as well as some abbreviations to cut down on development time.
 
