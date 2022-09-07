@@ -1,6 +1,8 @@
 # SCSS - bunch of useful mixins and functions
 
 
+![scss-helpers-preview](https://s4.gifyu.com/images/ezgif.com-gif-maker-5831c282393bb7aab.gif)
+
 It's a [VS Code](https://code.visualstudio.com/) snippets that allow you to utilize SSCS functions and mixins that have already been precoded as well as some abbreviations to cut down on development time.
 
 ## Available Prefixes
