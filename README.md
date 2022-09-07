@@ -5,6 +5,7 @@ It's a [VS Code](https://code.visualstudio.com/) snippets that allow you to util
 
 ## Available Prefixes
 
+All commands were prefixed with underscore "_"
 ## 1- @rules
 
 -  _imp ➜ `@import 'filePath'`
