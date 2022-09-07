@@ -1,11 +1,11 @@
 # SCSS - bunch of useful mixins and functions
 
-
-![scss-helpers-preview](https://s4.gifyu.com/images/ezgif.com-gif-maker-5831c282393bb7aab.gif)
+## __Installation__
+![scss-helpers-preview](https://s5.gifyu.com/images/scss-helpers-preview.gif)
 
 It's a [VS Code](https://code.visualstudio.com/) snippets that allow you to utilize SSCS functions and mixins that have already been precoded as well as some abbreviations to cut down on development time.
 
-## Available Prefixes
+## __Available Prefixes__
 
 All commands were prefixed with underscore "_"
 ## 1- @rules
