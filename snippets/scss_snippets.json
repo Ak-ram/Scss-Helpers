@@ -164,5 +164,22 @@
       "prefix": "_rmih",
       "body": ["@include responsiveMin(huge){", "$1", "}"],
       "description": "responsiveMin mixin for desktop"
+    },
+    "auto-prefix-mixin": {
+      "prefix": "_apm",
+      "body": [
+        "@mixin prefix($property,$value,$prefixes) {",
+        "    @each $prefix in $prefixes {",
+        "        -#{$prefix}-#{$property}: $value;",
+        "    }",
+        "    #{$property}: $value",
+        "}"
+      ],
+      "description": "auto prefix mixin"
+    },
+    "auto-prefix": {
+      "prefix": "_ap",
+      "body": ["@include prefix(transform,rotate(15deg),webkit ms o moz){", "$1", "}"],
+      "description": "auto prefixer"
     }
 }
