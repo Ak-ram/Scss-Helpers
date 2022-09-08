@@ -48,17 +48,19 @@ All commands were prefixed with underscore "_"
 
 ## 3- Functions
 
-- _clc  ➜ `calc()`
+- _clc      ➜ `calc()`
 - _funcrem  ➜ `function to convert pixels to rem`
-- _rem  ➜ `use function pixels to rem`
-- _funcem  ➜ `function to convert pixels to em`
-- _em  ➜ `use function pixels to em`
+- _rem      ➜ `use function pixels to rem`
+- _funcem   ➜ `function to convert pixels to em`
+- _em       ➜ `use function pixels to em`
 
 
 ---
 
 ## 4- Others
 
-- _bba  ➜ `Position absolute cover parent`
+- _bba   ➜ `Position absolute cover parent`
 - _bgco  ➜ `Background image size cover`
 - _bicn  ➜ `Background image size contain`
+- _apm   ➜ `Auto prefix mixin`
+- _ap   ➜ `Auto prefix @include`
